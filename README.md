@@ -1,6 +1,10 @@
-# AngularRbacDemo
+# AngularRbacMaterialDemo
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.8.
+
+## JSON server
+
+run the users.JSON in the file folder using JSON server
 
 ## Development server
 

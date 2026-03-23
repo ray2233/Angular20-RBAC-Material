@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "superadmin",
+      "password": "123456",
+      "role": "SUPER_ADMIN"
+    },
+    {
+      "id": 2,
+      "username": "admin",
+      "password": "123456",
+      "role": "ADMIN"
+    },
+    {
+      "id": 3,
+      "username": "user",
+      "password": "123456",
+      "role": "USER"
+    }
+  ]
+}

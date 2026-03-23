@@ -1,0 +1,33 @@
+.site-header {
+  position: sticky;   
+  top: 0;
+  left: 0;
+  width: 100%;       
+  background: rgba(95, 9, 9, 0.8);
+  backdrop-filter: blur(10px);
+  padding: 0.75rem 0;
+}
+
+ .spacer {
+  flex: 1 1 auto;
+}
+
+.nav-left a {
+  margin-right: 10px;
+}
+
+.user-info {
+  margin-right: 15px;
+}
+
+.btn-primary {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 0.5rem 1.25rem;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: opacity 0.2s;
+  margin-right: 5rem;
+}

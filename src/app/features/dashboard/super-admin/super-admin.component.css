@@ -1,0 +1,9 @@
+.dashboard-layout {
+  display: flex;
+}
+
+.content {
+  padding-left: 20px;
+  text-align: center;
+  flex: 1;
+}

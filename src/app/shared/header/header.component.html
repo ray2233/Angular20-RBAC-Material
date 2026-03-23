@@ -1,0 +1,24 @@
+<mat-toolbar class="site-header">
+
+    <button mat-icon-button (click)="toggleSidebar.emit()">
+        <mat-icon>menu</mat-icon>
+    </button>
+
+    <div class="nav-left">
+        <a mat-button routerLink="/home">Home</a>
+        <a mat-button routerLink="/features">Features</a>
+        <a mat-button routerLink="/about">About</a>
+    </div>
+
+    <span class="spacer"></span>
+
+    @if (auth.currentUser$ | async; as user) {
+    <span class="user-info">
+        Welcome {{ user.username }} | Role: {{ user.role }}
+    </span>
+
+    <button class="btn-primary" (click)=" logout()">Logout</button>
+
+    }
+
+</mat-toolbar>
