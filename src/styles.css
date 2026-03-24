@@ -1,1 +1,34 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+mat-sidenav-container {
+  height: 100vh;
+}
+
+.mat-drawer {
+  border-top-right-radius: 0px !important;
+  border-bottom-right-radius: 0px !important;
+  overflow: hidden !important;
+}
+
+.mat-drawer-inner-container {
+  overflow-y: hidden !important;
+  background: #4a79b9 !important;
+}
+
+.mat-mdc-card {
+  background: transparent !important;
+  box-shadow: none; /* to remove mat-content background */
+}
+
+.mdc-list {
+    margin: 0;
+    padding: 35px 0 !important;
+    list-style-type: none;
+}
