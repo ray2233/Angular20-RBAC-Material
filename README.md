@@ -1,12 +1,11 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 # Angular20-RBAC-Material
 Angular20-RBAC-Material with sidebar and header
-=======
+
 # AngularRbacDemo
-=======
+
 # AngularRbacMaterialDemo
->>>>>>> 528c69e (Initial commit)
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.8.
 
